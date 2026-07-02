@@ -1,12 +1,5 @@
 # ping-automation-in-bash
 
-#!/bin/bash
-read -p "enter the site name" site
-ping -c $site | cat>>file.txt
-sleep 10s
-if [[ $? -eq  0 ]]
-then
-  echo "successful"
-else
-  echo "unsuccessful"
-fi
+The script is meant to run using cron job a feature in linux operating system.
+The script does the job of pinging the site that the user inputs.
+The script adds the response to the file which saves it in text format.
