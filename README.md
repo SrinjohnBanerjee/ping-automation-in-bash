@@ -1,0 +1,1 @@
+# ping-automation-in-bash
